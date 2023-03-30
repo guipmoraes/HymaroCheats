@@ -1,0 +1,213 @@
+html {
+    font-family: 'Poppins';
+   
+    color: white;
+}
+
+.btn-3 {
+    line-height: 39px;
+    padding: 0;
+    width: 150px;
+    height: 50px;
+    margin-left: 28px;
+    color: white;
+    background-color: #000;
+    transition: 0.2s;
+    border-color: black;
+}
+
+.btn-3:hover {
+    background: transparent;
+    color: white;
+    transition: 0.2s;
+    border-color: transparent;
+}
+.btn-3:hover::after {
+
+    border-color: transparent;
+}
+
+body {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin: 0 auto;
+    background-color: #171818;
+}
+
+.div-lateral {
+    background-color: #171818;
+    width: 200px !important;
+    height: auto !important;
+}
+
+.div-body {
+    height: auto;
+    height: 100%;
+    width: auto;
+    width: 100%;
+    background-color: #0f0f0f;
+}
+
+.div-item {
+    width: 195px;
+    height: 295px;
+    margin-top: 30px;
+    margin-left: 30px;
+    position: left;
+    background-color: #121414;
+    display: inline-block;
+    
+}
+
+.item-button {
+    width: 170px;
+    margin-right: 40px;
+}
+
+.div-item p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.item-image {
+    width: 194;
+    height: 174;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0f0f0f;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #0f0f0f;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #0f0f0f;
+}
+
+.lateral-item-first {
+    margin-top: 60px;
+    width: auto;
+    height: 70px;
+    background-color: transparent;
+    text-align: center;
+    line-height: 70px;
+    color: white;
+    transition: background-color 0.2s;
+}
+
+.lateral-item-first:hover {
+
+    width: auto;
+    height: 70px;
+    background-color: black;
+    text-align: center;
+    line-height: 70px;
+    color: white;
+    transition: background-color 0.2s;
+}
+
+.lateral-item {
+    width: auto;
+    height: 70px;
+    background-color: transparent;
+    text-align: center;
+    line-height: 70px;
+    color: white;
+    transition: background-color 0.2s;
+}
+
+.lateral-item:hover {
+    transition: background-color 0.2s;
+    width: auto;
+    height: 70px;
+    background-color: black;
+}
+
+.lateral-item-first:hover {
+    transition: background-color 0.2s;
+    width: auto;
+    height: 70px;
+    background-color: black;
+}
+.profile-info {
+    margin-left: 200px;
+    position: center;
+    background-color: #0a0909;
+    color: white;
+    width: 400px;
+    height: 400px;
+    margin-top: 60px;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 5px;
+}
+.profile-info img {
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.profile-info .option{
+    background: #fff;
+    
+    align-items: center;
+    justify-content: space-evenly;
+
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid lightgrey;
+    transition: all 0.3s ease;
+  }
+  .profile-info .option .dot{
+    height: 20px;
+    width: 20px;
+    background: #d9d9d9;
+    border-radius: 50%;
+    position: relative;
+  }
+  .profile-info .option .dot::before{
+    position: absolute;
+    content: "";
+    top: 4px;
+    left: 4px;
+    width: 12px;
+    height: 12px;
+    background: #0069d9;
+    border-radius: 50%;
+    opacity: 0;
+    transform: scale(1.5);
+    transition: all 0.3s ease;
+  }
+  input[type="radio"]{
+    display: none;
+  }
+  #option-1:checked:checked ~ .option-1,
+  #option-2:checked:checked ~ .option-2{
+    border-color: #0069d9;
+    background: #0069d9;
+  }
+  #option-1:checked:checked ~ .option-1 .dot,
+  #option-2:checked:checked ~ .option-2 .dot{
+    background: #fff;
+  }
+  #option-1:checked:checked ~ .option-1 .dot::before,
+  #option-2:checked:checked ~ .option-2 .dot::before{
+    opacity: 1;
+    transform: scale(1);
+  }
+  .profile-info .option span{
+    font-size: 20px;
+    color: #808080;
+  }
+  #option-1:checked:checked ~ .option-1 span,
+  #option-2:checked:checked ~ .option-2 span{
+    color: #fff;
+  }
