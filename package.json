@@ -24,8 +24,8 @@
     "query-string": "^7.1.3",
     "request": "^2.88.2",
     "requests": "^0.3.0",
-    "shelljs": "^0.8.5",
-    "unzipper": "^0.10.11"
+    "shelljs": "^0.9.0",
+    "unzipper": "^0.12.1"
   },
   "build": {
     "appId": "foobar.id",
