@@ -16,7 +16,7 @@
     "ejs-electron": "^2.1.1",
     "electron-alert": "^0.1.20",
     "electron-custom-notifications": "^8.0.5",
-    "electron-settings": "^4.0.2",
+    "electron-settings": "^4.0.3",
     "hwid": "^0.4.1",
     "node-hwid": "^0.1.0",
     "node-machine-id": "^1.1.12",
